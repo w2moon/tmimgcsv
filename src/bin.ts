@@ -16,4 +16,5 @@ program.parse(process.argv);
 if (program.args.length < 2) {
   program.help();
 }
+
 func(program.args);
